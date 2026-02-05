@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LocalLink - Hyperlocal Delivery Platform</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav container">
+        <div class="brand">LocalLink</div>
+        <ul class="nav-links">
+          <li><a href="#stores">Stores</a></li>
+          <li><a href="#how-it-works">How it works</a></li>
+          <li><a href="#partners">Partners</a></li>
+        </ul>
+        <button class="btn btn-outline">Become a Partner</button>
+      </nav>
+
+      <div class="hero-content container">
+        <div>
+          <p class="badge">Alternative to Swiggy • Zomato • Zepto</p>
+          <h1>Connect people with nearby local shops in minutes</h1>
+          <p class="subtitle">
+            From groceries and medicines to fresh fruits, juices, and home-style meals,
+            LocalLink helps neighborhood stores go online and deliver fast.
+          </p>
+
+          <form class="search-box" id="searchForm">
+            <input
+              type="text"
+              id="location"
+              placeholder="Enter your location"
+              aria-label="Enter location"
+              required
+            />
+            <button class="btn" type="submit">Find Stores</button>
+          </form>
+
+          <div class="quick-tags">
+            <span>Groceries</span>
+            <span>Medical</span>
+            <span>Food</span>
+            <span>Fruits</span>
+            <span>Juice</span>
+          </div>
+        </div>
+        <aside class="hero-card">
+          <h3>Delivery in 20-30 mins</h3>
+          <ul>
+            <li>Live order tracking</li>
+            <li>Verified neighborhood shops</li>
+            <li>Cash, UPI & card payments</li>
+            <li>Affordable partner delivery</li>
+          </ul>
+        </aside>
+      </div>
+    </header>
+
+    <main>
+      <section class="section container" id="stores">
+        <div class="section-head">
+          <h2>Popular Local Stores</h2>
+          <p>Choose what you need from trusted shops around you.</p>
+        </div>
+
+        <div class="grid" id="storeGrid"></div>
+      </section>
+
+      <section class="section alt" id="how-it-works">
+        <div class="container">
+          <div class="section-head">
+            <h2>How LocalLink Works</h2>
+          </div>
+          <div class="steps">
+            <article>
+              <h3>1. Search your area</h3>
+              <p>Enter your location and discover nearby stores in seconds.</p>
+            </article>
+            <article>
+              <h3>2. Place your order</h3>
+              <p>Pick products from grocery, medicine, food, fruits, and juice shops.</p>
+            </article>
+            <article>
+              <h3>3. Fast local delivery</h3>
+              <p>Delivery partners collect and deliver your order quickly.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="partners">
+        <div class="section-head">
+          <h2>For Shop Owners</h2>
+          <p>
+            Join LocalLink to receive online orders, increase local visibility, and grow
+            daily sales without expensive setup.
+          </p>
+        </div>
+        <div class="partner-cta">
+          <div>
+            <h3>Run your store digitally</h3>
+            <p>
+              Manage menu/items, set delivery radius, and track orders in one dashboard.
+            </p>
+          </div>
+          <button class="btn">Register Your Shop</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-wrap">
+        <p>© 2026 LocalLink. Empowering local businesses.</p>
+        <p>Built for neighborhood commerce.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
